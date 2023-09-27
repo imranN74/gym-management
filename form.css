@@ -1,0 +1,46 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.form{
+    margin-top:60px;
+    width:400px;
+    padding:10px;
+    border:1px solid;
+    border-radius:8px;
+    background:rgba(250,251,248,0.3);
+}  
+
+.formlogin{
+    margin-top:100px;
+    width:300px;
+    padding:10px;
+    border:1px solid;
+    border-radius:8px;
+    background:rgba(250,251,248,0.3);
+}
+
+.form input{
+    background: transparent;
+    border-color: black;
+}
+
+.form input::placeholder{
+    color:black;
+}
+
+.formlogin input::placeholder{
+    color:black;
+}
+
+.formlogin input{
+    background: transparent;
+    border-color: black;
+}
